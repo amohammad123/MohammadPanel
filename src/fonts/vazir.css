@@ -1,0 +1,42 @@
+/* font formats:
+    eot
+    ttf
+    woff
+    woff2 */
+
+    @font-face {
+        font-family: "Vazir";
+        src: url(./Vazirmatn-Black.woff2) format("woff2");
+        src: url(./Vazirmatn-Black.ttf) format("truetype");
+        font-weight: 900;
+    }
+    @font-face {
+        font-family: "Vazir";
+        src: url(./Vazirmatn-ExtraBold.woff2) format("woff2");
+        src: url(./Vazirmatn-ExtraBold.ttf) format("truetype");
+        font-weight: bold;
+    }
+    @font-face {
+        font-family: "Vazir";
+        src: url(./Vazirmatn-Medium.woff2) format("woff2");
+        src: url(./Vazirmatn-Medium.ttf) format("truetype");
+        font-weight: 500;
+    }
+    @font-face {
+        font-family: "Vazir";
+        src: url(./Vazirmatn[wght].woff2) format("woff2");
+        src: url(./Vazirmatn[wght].ttf) format("truetype");
+        font-weight: normal;
+    }
+    @font-face {
+        font-family: "Vazir";
+        src: url(./Vazirmatn-Light.woff2) format("woff2");
+        src: url(./Vazirmatn-Light.ttf) format("truetype");
+        font-weight: 300;
+    }
+    @font-face {
+        font-family: "Vazir";
+        src: url(./Vazirmatn-Thin.woff2) format("woff2");
+        src: url(./Vazirmatn-Thin.ttf) format("truetype");
+        font-weight: 100;
+    }
