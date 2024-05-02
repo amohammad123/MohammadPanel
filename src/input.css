@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+
+
+@font-face {
+    font-family: "Vazir";
+    src: url(./fonts/Vazirmatn-Black.woff2) format("woff2");
+    src: url(./fonts/Vazirmatn-Black.ttf) format("truetype");
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Vazir";
+    src: url(./fonts/Vazirmatn-ExtraBold.woff2) format("woff2");
+    src: url(./fonts/Vazirmatn-ExtraBold.ttf) format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Vazir";
+    src: url(./fonts/Vazirmatn-Medium.woff2) format("woff2");
+    src: url(./fonts/Vazirmatn-Medium.ttf) format("truetype");
+    font-weight: 500;
+}
+@font-face {
+    font-family: "Vazir";
+    src: url(./fonts/Vazirmatn[wght].woff2) format("woff2");
+    src: url(./fonts/Vazirmatn[wght].ttf) format("truetype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Vazir";
+    src: url(./fonts/Vazirmatn-Light.woff2) format("woff2");
+    src: url(./fonts/Vazirmatn-Light.ttf) format("truetype");
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Vazir";
+    src: url(./fonts/Vazirmatn-Thin.woff2) format("woff2");
+    src: url(./fonts/Vazirmatn-Thin.ttf) format("truetype");
+    font-weight: 100;
+}
+
+
+@tailwind utilities;
